@@ -5,7 +5,7 @@
 # June 30, 2016
 # Health Check Program 1 - Customer File Drop Confirmation on Exattarget FTP Server
 #
-# The intent of this program is to check whether or not the custoemr file has dropped at the alotted time.
+# The intent of this program is to check whether or not the customer file has dropped at the alotted time.
 # Failure to locate the file at specified times should return a 2 (CRITICAL), and trigger a PagerDuty Alert.
 # Success should return a 0 (OKAY) and trigger no alert or email.
 
